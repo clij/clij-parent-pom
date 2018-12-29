@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+		http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.scijava</groupId>
+        <artifactId>pom-scijava</artifactId>
+        <version>24.2.0</version>
+    </parent>
+
+    <groupId>net.haesleinhuepf</groupId>
+    <artifactId>clij-parent-pom</artifactId>
+    <version>0.1.0</version>
+    <packaging>pom</packaging>
+
+    <name>clij-parent-pom</name>
+    <description>This pom serves as parent for projects using SciJava, ImageJ, ClearCL and CLIJ libraries
+    </description>
+    <url>https://github.com/clij/clij-parent-pom</url>
+    <inceptionYear>2018</inceptionYear>
+    <organization>
+        <name>Haesleinhuepf</name>
+        <url>http://haesleinhuepf.net</url>
+    </organization>
+    <licenses>
+        <license>
+            <name>Simplified BSD License</name>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>haesleinhuepf</id>
+            <name>Robert Haase</name>
+            <url>http://haesleinhuepf.net</url>
+            <roles>
+                <role>founder</role>
+                <role>lead</role>
+                <role>developer</role>
+                <role>debugger</role>
+                <role>reviewer</role>
+                <role>support</role>
+                <role>maintainer</role>
+            </roles>
+        </developer>
+    </developers>
+    <contributors>
+        <contributor>
+            <name>none</name>
+        </contributor>
+    </contributors>
+
+    <mailingLists>
+        <mailingList>
+            <name>ImageSc Forum</name>
+            <archive>http://image.sc/</archive>
+        </mailingList>
+    </mailingLists>
+
+    <scm>
+        <connection>
+            scm:git:git://github.com/clij/clij-parent-pom
+        </connection>
+        <developerConnection>
+            scm:git:git@github.com/clij/clij-parent-pom
+        </developerConnection>
+        <tag>HEAD</tag>
+        <url>https://github.com/clij/clij-parent-pom</url>
+    </scm>
+    <issueManagement>
+        <system>GitHub Issues</system>
+        <url>https://github.com/clij/clij-parent-pom/issues
+        </url>
+    </issueManagement>
+    <ciManagement>
+        <system>None</system>
+    </ciManagement>
+
+    <properties>
+        <package-name>net.haesleinhuepf</package-name>
+        <license.licenseName>bsd_3</license.licenseName>
+        <license.copyrightOwners>Robert Haase, MPI CBG</license.copyrightOwners>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>net.clearcontrol</groupId>
+                <artifactId>coremem</artifactId>
+                <version>0.4.6</version>
+            </dependency>				
+			<dependency>
+				<groupId>org.jocl</groupId>
+				<artifactId>jocl</artifactId>
+				<version>2.0.1</version>
+			</dependency>
+			<dependency>
+				<groupId>com.nativelibs4java</groupId>
+				<artifactId>javacl</artifactId>
+				<version>1.0.0-RC4</version>
+			</dependency>
+            <dependency>
+                <groupId>net.clearcontrol</groupId>
+                <artifactId>clearcl</artifactId>
+                <version>0.6.8-m</version>
+            </dependency>
+            <dependency>
+                <groupId>net.haesleinhuepf</groupId>
+                <artifactId>clij_</artifactId>
+                <version>0.8.0</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+    <repositories>
+        <repository>
+            <id>sonatype</id>
+            <url>http://oss.sonatype.org/content/groups/public</url>
+        </repository>
+        <repository>
+            <id>mvnrepo</id>
+            <url>http://mvnrepository.com/artifact</url>
+        </repository>
+        <repository>
+            <id>imagej.releases</id>
+            <url>
+                http://maven.imagej.net/content/repositories/releases
+            </url>
+        </repository>
+        <repository>
+            <id>imagej.snapshots</id>
+            <url>
+                http://maven.imagej.net/content/repositories/snapshots
+            </url>
+        </repository>
+        <repository>
+            <id>clearcontrolbintray</id>
+            <url>http://dl.bintray.com/clearcontrol/ClearControl</url>
+        </repository>
+        <repository>
+            <id>hslh</id>
+            <url>http://dl.bintray.com/haesleinhuepf/snapshots</url>
+        </repository>
+        <repository>
+            <id>jocl</id>
+            <url>https://mvnrepository.com/artifact/org.jocl/jocl
+            </url>
+        </repository>
+        <repository>
+            <id>unidata</id>
+            <url>
+                https://artifacts.unidata.ucar.edu/content/repositories/unidata-releases
+            </url>
+        </repository>
+        <repository>
+            <id>ome</id>
+            <url>
+                http://artifacts.openmicroscopy.org/artifactory/maven/
+            </url>
+        </repository>
+        <repository>
+            <id>clearvolumebintray</id>
+            <url>http://dl.bintray.com/clearvolume/ClearVolume</url>
+        </repository>
+    </repositories>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+
+                <version>1.4.1</version>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.cl</include>
+                    <include>**/*.png</include>
+                    <include>**/*.properties</include>
+                    <include>**/*.css</include>
+                    <include>**/*.py</include>
+                    <include>**/*.glsl</include>
+                    <include>**/*.fxml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+
+
+    <distributionManagement>
+        <repository>
+            <id>bintray-haesleinhuepf-snapshots</id>
+            <name>bintray-snapshots</name>
+            <url>https://api.bintray.com/maven/haesleinhuepf/clij/clij-parent-pom/;publish=1</url>
+        </repository>
+    </distributionManagement>
+
+
+</project>
