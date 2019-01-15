@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>0.6.0</version>
+    <version>0.7.0</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -90,8 +90,8 @@
         <dependencies>
             <dependency>
                 <groupId>net.clearcontrol</groupId>
-                <artifactId>coremem</artifactId>
-                <version>0.4.6</version>
+                <artifactId>clij-coremem</artifactId>
+                <version>0.5.0</version>
             </dependency>				
 			<dependency>
 				<groupId>org.jocl</groupId>
@@ -105,18 +105,28 @@
 			</dependency>
             <dependency>
                 <groupId>net.clearcontrol</groupId>
-                <artifactId>clearcl</artifactId>
-                <version>0.7.2-m</version>
+                <artifactId>clij-clearcl</artifactId>
+                <version>0.8.0</version>
             </dependency>
             <dependency>
                 <groupId>net.haesleinhuepf</groupId>
                 <artifactId>clij_</artifactId>
-                <version>0.14.0</version>
+                <version>0.15.0</version>
             </dependency>
             <dependency>
                 <groupId>net.haesleinhuepf</groupId>
                 <artifactId>clij_custom_convolution_plugin</artifactId>
-                <version>0.1.2</version>
+                <version>0.2.0</version>
+            </dependency>
+            <dependency>
+                <groupId>net.haesleinhuepf</groupId>
+                <artifactId>clij_histogram_plugin</artifactId>
+                <version>0.2.0</version>
+            </dependency>
+            <dependency>
+                <groupId>com.nativelibs4java</groupId>
+                <artifactId>bridj</artifactId>
+                <version>0.7.0</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
@@ -194,6 +204,18 @@
         <resources>
             <resource>
                 <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.cl</include>
+                    <include>**/*.png</include>
+                    <include>**/*.properties</include>
+                    <include>**/*.css</include>
+                    <include>**/*.py</include>
+                    <include>**/*.glsl</include>
+                    <include>**/*.fxml</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/test/java</directory>
                 <includes>
                     <include>**/*.cl</include>
                     <include>**/*.png</include>
