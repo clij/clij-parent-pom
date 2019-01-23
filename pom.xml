@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>0.7.0</version>
+    <version>0.8.0</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -111,7 +111,12 @@
             <dependency>
                 <groupId>net.haesleinhuepf</groupId>
                 <artifactId>clij_</artifactId>
-                <version>0.15.0</version>
+                <version>0.16.0</version>
+            </dependency>
+            <dependency>
+                <groupId>net.haesleinhuepf</groupId>
+                <artifactId>clij-core</artifactId>
+                <version>0.1.0</version>
             </dependency>
             <dependency>
                 <groupId>net.haesleinhuepf</groupId>
