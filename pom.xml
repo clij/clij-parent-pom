@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>0.8.5</version>
+    <version>0.9.0</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -111,21 +111,16 @@
             <dependency>
                 <groupId>net.haesleinhuepf</groupId>
                 <artifactId>clij_</artifactId>
-                <version>0.16.5</version>
+                <version>0.16.6</version>
             </dependency>
             <dependency>
                 <groupId>net.haesleinhuepf</groupId>
                 <artifactId>clij-core</artifactId>
-                <version>0.1.5</version>
+                <version>0.1.6</version>
             </dependency>
             <dependency>
                 <groupId>net.haesleinhuepf</groupId>
                 <artifactId>clij_custom_convolution_plugin</artifactId>
-                <version>0.2.0</version>
-            </dependency>
-            <dependency>
-                <groupId>net.haesleinhuepf</groupId>
-                <artifactId>clij_histogram_plugin</artifactId>
                 <version>0.2.0</version>
             </dependency>
             <dependency>
