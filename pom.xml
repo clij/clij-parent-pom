@@ -8,12 +8,12 @@
     <parent>
         <groupId>org.scijava</groupId>
         <artifactId>pom-scijava</artifactId>
-        <version>24.2.0</version>
+        <version>25.0.0</version>
     </parent>
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>0.9.4</version>
+    <version>0.10.0</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -84,6 +84,17 @@
         <package-name>net.haesleinhuepf</package-name>
         <license.licenseName>bsd_3</license.licenseName>
         <license.copyrightOwners>Robert Haase, MPI CBG</license.copyrightOwners>
+
+        <clij_.version>0.17.0</clij_.version>
+        <clij_core.version>0.2.0</clij_core.version>
+        <clij_custom_convolution_plugin.version>0.2.0</clij_custom_convolution_plugin.version>
+
+        <clij.coremem.version>0.5.0</clij.coremem.version>
+        <clij_clearcl.version>0.8.0</clij_clearcl.version>
+
+        <jocl.version>2.0.1</jocl.version>
+        <javacl.version>1.0.0-RC4</javacl.version>
+        <bridj.version>0.7.0</bridj.version>
     </properties>
 
     <dependencyManagement>
@@ -91,42 +102,42 @@
             <dependency>
                 <groupId>net.clearcontrol</groupId>
                 <artifactId>clij-coremem</artifactId>
-                <version>0.5.0</version>
+                <version>${clij.coremem.version}</version>
             </dependency>				
 			<dependency>
 				<groupId>org.jocl</groupId>
 				<artifactId>jocl</artifactId>
-				<version>2.0.1</version>
+				<version>${jocl.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>com.nativelibs4java</groupId>
 				<artifactId>javacl</artifactId>
-				<version>1.0.0-RC4</version>
+				<version>${javacl.version}</version>
 			</dependency>
             <dependency>
                 <groupId>net.clearcontrol</groupId>
                 <artifactId>clij-clearcl</artifactId>
-                <version>0.8.0</version>
+                <version>${clij_clearcl.version}</version>
             </dependency>
             <dependency>
                 <groupId>net.haesleinhuepf</groupId>
                 <artifactId>clij_</artifactId>
-                <version>0.16.10</version>
+                <version>${clij_.version}</version>
             </dependency>
             <dependency>
                 <groupId>net.haesleinhuepf</groupId>
                 <artifactId>clij-core</artifactId>
-                <version>0.1.8</version>
+                <version>${clij_core.version}</version>
             </dependency>
             <dependency>
                 <groupId>net.haesleinhuepf</groupId>
                 <artifactId>clij_custom_convolution_plugin</artifactId>
-                <version>0.2.0</version>
+                <version>${clij_custom_convolution_plugin.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.nativelibs4java</groupId>
                 <artifactId>bridj</artifactId>
-                <version>0.7.0</version>
+                <version>${bridj.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
