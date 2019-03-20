@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>0.11.3</version>
+    <version>0.11.4</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -85,7 +85,7 @@
         <license.licenseName>bsd_3</license.licenseName>
         <license.copyrightOwners>Robert Haase, MPI CBG</license.copyrightOwners>
 
-        <clij_.version>0.18.3</clij_.version>
+        <clij_.version>0.18.4</clij_.version>
         <clij_core.version>0.3.2</clij_core.version>
         <clij_custom_convolution_plugin.version>0.2.0</clij_custom_convolution_plugin.version>
 
