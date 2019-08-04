@@ -91,7 +91,7 @@
         <clij_ops.version>1.1.2</clij_ops.version>
         <clij_custom_convolution_plugin.version>1.1.2</clij_custom_convolution_plugin.version>
 
-        <clij.coremem.version>0.5.3</clij.coremem.version>
+        <clij.coremem.version>0.5.4</clij.coremem.version>
         <clij_clearcl.version>0.8.3</clij_clearcl.version>
 
         <jocl.version>2.0.1</jocl.version>
