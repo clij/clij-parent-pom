@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>1.1.6-BETA</version>
+    <version>1.2.0</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -85,17 +85,16 @@
         <license.licenseName>bsd_3</license.licenseName>
         <license.copyrightOwners>Robert Haase, MPI CBG</license.copyrightOwners>
 
-        <clij_.version>1.1.6-BETA</clij_.version>
-        <clij_core.version>1.1.6-BETA</clij_core.version>
-        <clij_docs.version>1.1.6-BETA</clij_docs.version>
-        <clij_ops.version>1.1.6-BETA</clij_ops.version>
-        <clij_custom_convolution_plugin.version>1.1.6-BETA</clij_custom_convolution_plugin.version>
+        <clij_.version>1.2.0</clij_.version>
+        <clij_core.version>1.2.0</clij_core.version>
+        <clij_docs.version>1.2.0</clij_docs.version>
+        <clij_ops.version>1.2.0</clij_ops.version>
+        <clij_custom_convolution_plugin.version>1.2.0</clij_custom_convolution_plugin.version>
 
-        <clij.coremem.version>0.5.7-BETA</clij.coremem.version>
-        <clij_clearcl.version>0.8.6-BETA</clij_clearcl.version>
+        <clij.coremem.version>0.6.0</clij.coremem.version>
+        <clij_clearcl.version>0.9.0</clij_clearcl.version>
 
         <jocl.version>2.0.1</jocl.version>
-        <javacl.version>1.0.0-RC4</javacl.version>
         <bridj.version>0.7.0</bridj.version>
     </properties>
 
@@ -110,11 +109,6 @@
 				<groupId>org.jocl</groupId>
 				<artifactId>jocl</artifactId>
 				<version>${jocl.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>com.nativelibs4java</groupId>
-				<artifactId>javacl</artifactId>
-				<version>${javacl.version}</version>
 			</dependency>
             <dependency>
                 <groupId>net.clearcontrol</groupId>
