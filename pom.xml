@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>1.5.3</version>
+    <version>1.5.4</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -94,11 +94,12 @@
         <clij.coremem.version>0.6.0</clij.coremem.version>
         <clij_clearcl.version>0.10.8</clij_clearcl.version>
 
-        <clij2_.version>0.26.1</clij2_.version>
-        <clij2_code_generators_.version>0.26.1</clij2_code_generators_.version>
-        <clij2_docs_.version>0.26.1</clij2_docs_.version>
-        <clij2_tests_.version>0.26.1</clij2_tests_.version>
-        <clijx_.version>0.26.1</clijx_.version>
+        <clij2_.version>0.26.2</clij2_.version>
+        <clij2_code_generators_.version>0.26.2</clij2_code_generators_.version>
+        <clij2_docs_.version>0.26.2</clij2_docs_.version>
+        <clij2_tests_.version>0.26.2</clij2_tests_.version>
+        <clijx_.version>0.26.2</clijx_.version>
+        <trainable_segmentation.version>3.2.37-clijed</trainable_segmentation.version>
 
         <jocl.version>2.0.1</jocl.version>
         <bridj.version>0.7.0</bridj.version>
@@ -167,6 +168,12 @@
                 <groupId>net.haesleinhuepf</groupId>
                 <artifactId>clijx_</artifactId>
                 <version>${clijx_.version}</version>
+            </dependency>
+            <dependency>
+
+                <groupId>sc.fiji</groupId>
+                <artifactId>Trainable_Segmentation_clijed</artifactId>
+                <version>#{trainable_segmentation.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
