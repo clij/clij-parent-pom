@@ -101,7 +101,7 @@
         <clijx_.version>0.26.3</clijx_.version>
         <trainable_segmentation.version>3.2.38-clijed</trainable_segmentation.version>
 
-        <jocl.version>2.0.1</jocl.version>
+        <jocl.version>2.0.2</jocl.version>
         <bridj.version>0.7.0</bridj.version>
     </properties>
 
@@ -173,7 +173,7 @@
 
                 <groupId>sc.fiji</groupId>
                 <artifactId>Trainable_Segmentation_clijed</artifactId>
-                <version>#{trainable_segmentation.version}</version>
+                <version>${trainable_segmentation.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
