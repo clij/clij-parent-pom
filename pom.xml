@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>1.5.8</version>
+    <version>1.5.12</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -92,14 +92,14 @@
         <clij_custom_convolution_plugin.version>1.5.8</clij_custom_convolution_plugin.version>
 
         <clij.coremem.version>0.6.0</clij.coremem.version>
-        <clij_clearcl.version>0.10.10</clij_clearcl.version>
+        <clij_clearcl.version>0.10.11</clij_clearcl.version>
 
-        <clij2_.version>0.26.5</clij2_.version>
-        <clij2_code_generators_.version>0.26.5</clij2_code_generators_.version>
-        <clij2_docs_.version>0.26.5</clij2_docs_.version>
-        <clij2_tests_.version>0.26.5</clij2_tests_.version>
-        <clijx_.version>0.26.5</clijx_.version>
-        <clijx_weka_.version>0.26.5</clijx_weka_.version>
+        <clij2_.version>0.26.10</clij2_.version>
+        <clij2_code_generators_.version>0.26.10</clij2_code_generators_.version>
+        <clij2_docs_.version>0.26.10</clij2_docs_.version>
+        <clij2_tests_.version>0.26.10</clij2_tests_.version>
+        <clijx_.version>0.26.10</clijx_.version>
+        <clijx_weka_.version>0.26.10</clijx_weka_.version>
 
         <jocl.version>2.0.2</jocl.version>
         <bridj.version>0.7.0</bridj.version>
