@@ -101,6 +101,9 @@
         <clijx_.version>0.27.0</clijx_.version>
         <clijx_weka_.version>0.27.0</clijx_weka_.version>
 
+        <clatlab.version>0.27.0</clatlab.version>
+        <clicy.version>0.27.0</clicy.version>
+
         <jocl.version>2.0.2</jocl.version>
         <bridj.version>0.7.0</bridj.version>
     </properties>
@@ -173,6 +176,17 @@
                 <groupId>net.haesleinhuepf</groupId>
                 <artifactId>clijx-weka_</artifactId>
                 <version>${clijx_.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>net.haesleinhuepf</groupId>
+                <artifactId>clatlab</artifactId>
+                <version>${clatlab.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>net.haesleinhuepf</groupId>
+                <artifactId>clicy</artifactId>
+                <version>${clicy.version}</version>
             </dependency>
             <dependency>
 
