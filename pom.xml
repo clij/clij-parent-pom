@@ -301,7 +301,6 @@
         </resources>
     </build>
 
-
     <distributionManagement>
         <repository>
             <id>bintray-haesleinhuepf-snapshots</id>
@@ -309,6 +308,4 @@
             <url>https://api.bintray.com/maven/haesleinhuepf/clij/clij-parent-pom/;publish=1</url>
         </repository>
     </distributionManagement>
-
-
 </project>
