@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>2.0.0.10</version>
+    <version>2.0.0.14</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -85,8 +85,8 @@
         <license.licenseName>bsd_3</license.licenseName>
         <license.copyrightOwners>Robert Haase, MPI CBG</license.copyrightOwners>
 
-        <clij_.version>1.7.0.10</clij_.version>
-        <clij_core.version>1.7.0.10</clij_core.version>
+        <clij_.version>1.7.0.14</clij_.version>
+        <clij_core.version>1.7.0.14</clij_core.version>
         <clij_docs.version>1.7.0.10</clij_docs.version>
         <clij_ops.version>1.7.0.10</clij_ops.version>
         <clij_custom_convolution_plugin.version>1.7.0.10</clij_custom_convolution_plugin.version>
@@ -94,15 +94,15 @@
         <clij.coremem.version>2.0.0.10</clij.coremem.version>
         <clij_clearcl.version>2.0.0.10</clij_clearcl.version>
 
-        <clij2_.version>2.0.0.10</clij2_.version>
-        <clij2_code_generators_.version>2.0.0.10</clij2_code_generators_.version>
-        <clij2_docs_.version>2.0.0.10</clij2_docs_.version>
-        <clij2_tests_.version>2.0.0.10</clij2_tests_.version>
-        <clijx_.version>0.28.0.10</clijx_.version>
-        <clijx_weka_.version>0.28.0.10</clijx_weka_.version>
+        <clij2_.version>2.0.0.14</clij2_.version>
+        <clij2_code_generators_.version>2.0.0.14</clij2_code_generators_.version>
+        <clij2_docs_.version>2.0.0.14</clij2_docs_.version>
+        <clij2_tests_.version>2.0.0.14</clij2_tests_.version>
+        <clijx_.version>0.28.0.14</clijx_.version>
+        <clijx_weka_.version>0.28.0.14</clijx_weka_.version>
 
-        <clatlab.version>2.0.0.10</clatlab.version>
-        <clicy.version>2.0.0.10</clicy.version>
+        <clatlab.version>2.0.0.14</clatlab.version>
+        <clicy.version>2.0.0.14</clicy.version>
 
         <jocl.version>2.0.2</jocl.version>
         <bridj.version>0.7.0</bridj.version>
