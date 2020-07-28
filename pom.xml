@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>2.0.0.18</version>
+    <version>2.0.0.21</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -85,24 +85,25 @@
         <license.licenseName>bsd_3</license.licenseName>
         <license.copyrightOwners>Robert Haase, MPI CBG</license.copyrightOwners>
 
-        <clij_.version>1.7.0.15</clij_.version>
-        <clij_core.version>1.7.0.15</clij_core.version>
-        <clij_docs.version>1.7.0.10</clij_docs.version>
+        <clij_.version>1.7.0.21</clij_.version>
+        <clij_core.version>1.7.0.21</clij_core.version>
+        <clij_docs.version>1.7.0.21</clij_docs.version>
         <clij_ops.version>1.7.0.10</clij_ops.version>
         <clij_custom_convolution_plugin.version>1.7.0.10</clij_custom_convolution_plugin.version>
 
         <clij.coremem.version>2.0.0.10</clij.coremem.version>
-        <clij_clearcl.version>2.0.0.10</clij_clearcl.version>
+        <clij_clearcl.version>2.0.0.21</clij_clearcl.version>
 
-        <clij2_.version>2.0.0.15</clij2_.version>
-        <clij2_code_generators_.version>2.0.0.15</clij2_code_generators_.version>
-        <clij2_docs_.version>2.0.0.15</clij2_docs_.version>
-        <clij2_tests_.version>2.0.0.15</clij2_tests_.version>
-        <clijx_.version>0.28.0.18</clijx_.version>
-        <clijx_weka_.version>0.28.0.15</clijx_weka_.version>
+        <clij2_.version>2.0.0.21</clij2_.version>
+        <clij2_code_generators_.version>2.0.0.21</clij2_code_generators_.version>
+        <clij2_docs_.version>2.0.0.21</clij2_docs_.version>
+        <clij2_tests_.version>2.0.0.21</clij2_tests_.version>
+        <clijx_.version>0.28.0.21</clijx_.version>
+        <clijx_weka_.version>0.28.0.21</clijx_weka_.version>
+        <clijx_incubator.version>0.1.0.21</clijx_incubator.version>
 
-        <clatlab.version>2.0.0.15</clatlab.version>
-        <clicy.version>2.0.0.15</clicy.version>
+        <clatlab.version>2.0.0.21</clatlab.version>
+        <clicy.version>2.0.0.21</clicy.version>
 
         <jocl.version>2.0.2</jocl.version>
         <bridj.version>0.7.0</bridj.version>
