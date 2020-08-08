@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>2.1.0.2</version>
+    <version>2.1.1.0</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -94,16 +94,17 @@
         <clij.coremem.version>2.0.0.10</clij.coremem.version>
         <clij_clearcl.version>2.0.0.21</clij_clearcl.version>
 
-        <clij2_.version>2.0.0.21</clij2_.version>
-        <clij2_code_generators_.version>2.0.0.21</clij2_code_generators_.version>
-        <clij2_docs_.version>2.0.0.21</clij2_docs_.version>
-        <clij2_tests_.version>2.0.0.21</clij2_tests_.version>
-        <clijx_.version>0.29.0.2</clijx_.version>
-        <clijx_weka_.version>0.28.0.21</clijx_weka_.version>
-        <clijx_incubator.version>0.2.0.2</clijx_incubator.version>
+        <clij2_.version>2.1.1.0</clij2_.version>
+        <clij2_code_generators_.version>2.1.1.0</clij2_code_generators_.version>
+        <clij2_docs_.version>2.1.1.0</clij2_docs_.version>
+        <clij2_tests_.version>2.1.1.0</clij2_tests_.version>
+        <clijx_.version>0.29.1.0</clijx_.version>
+        <clijx_weka_.version>0.29.1.0</clijx_weka_.version>
+        <clijx_incubator.version>0.2.1.0</clijx_incubator.version>
 
-        <clatlab.version>2.0.0.21</clatlab.version>
-        <clicy.version>2.0.0.21</clicy.version>
+        <clatlab.version>2.1.1.0</clatlab.version>
+        <clicy.version>2.1.1.0</clicy.version>
+        <clij2imagej1.version>2.1.1.0</clij2imagej1.version>
 
         <jocl.version>2.0.2</jocl.version>
         <bridj.version>0.7.0</bridj.version>
@@ -192,10 +193,14 @@
                 <version>${clicy.version}</version>
             </dependency>
             <dependency>
-
-                <groupId>sc.fiji</groupId>
-                <artifactId>Trainable_Segmentation_clijed</artifactId>
-                <version>${trainable_segmentation.version}</version>
+                <groupId>net.haesleinhuepf</groupId>
+                <artifactId>clijx-incubator_</artifactId>
+                <version>${clijx_incubator.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>net.haesleinhuepf</groupId>
+                <artifactId>clij2-imagej1_</artifactId>
+                <version>${clij2imagej1.version}}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
