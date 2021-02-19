@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>2.2.0.19</version>
+    <version>2.2.0.20</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -99,7 +99,7 @@
         <clij2_docs_.version>2.2.0.19</clij2_docs_.version>
         <clij2_tests_.version>2.2.0.19</clij2_tests_.version>
 
-        <clijx_.version>0.30.1.19</clijx_.version>
+        <clijx_.version>0.30.1.20</clijx_.version>
         <clijx_weka_.version>0.30.1.19</clijx_weka_.version>
 
         <clijx_assistant.version>0.4.2.19</clijx_assistant.version>
