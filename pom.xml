@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>2.2.0.24</version>
+    <version>2.2.1.0</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -94,15 +94,15 @@
         <clij.coremem.version>2.0.0.10</clij.coremem.version>
         <clij_clearcl.version>2.0.0.21</clij_clearcl.version>
 
-        <clij2_.version>2.2.0.19</clij2_.version>
-        <clij2_code_generators_.version>2.2.0.19</clij2_code_generators_.version>
-        <clij2_docs_.version>2.2.0.19</clij2_docs_.version>
-        <clij2_tests_.version>2.2.0.19</clij2_tests_.version>
+        <clij2_.version>2.2.1.0</clij2_.version>
+        <clij2_code_generators_.version>2.2.1.0</clij2_code_generators_.version>
+        <clij2_docs_.version>2.2.1.0</clij2_docs_.version>
+        <clij2_tests_.version>2.2.1.0</clij2_tests_.version>
 
-        <clijx_.version>0.30.1.24</clijx_.version>
-        <clijx_weka_.version>0.30.1.19</clijx_weka_.version>
+        <clijx_.version>0.30.2.0</clijx_.version>
+        <clijx_weka_.version>0.30.2.0</clijx_weka_.version>
 
-        <clijx_assistant.version>0.4.2.24</clijx_assistant.version>
+        <clijx_assistant.version>0.4.3.0</clijx_assistant.version>
         <clijx_assistant_bonej_extensions.version>0.4.2.16</clijx_assistant_bonej_extensions.version>
         <clijx_assistant_ij3dsuite_extensions.version>0.4.2.16</clijx_assistant_ij3dsuite_extensions.version>
         <clijx_assistant_morpholibj_extensions.version>0.4.2.22</clijx_assistant_morpholibj_extensions.version>
@@ -112,11 +112,11 @@
         <clijx_assistant_simpleitk_extensions.version>0.4.2.16</clijx_assistant_simpleitk_extensions.version>
         <clijx_assistant_extensions.version>0.4.0.0</clijx_assistant_extensions.version>
 
-        <clatlab.version>2.2.0.19</clatlab.version>
-        <clatlabx.version>0.30.1.19</clatlabx.version>
-        <clicy.version>2.2.0.19</clicy.version>
-        <clij2imagej1.version>2.2.0.19</clij2imagej1.version>
-        <clupath.version>0.3.1.24</clupath.version>
+        <clatlab.version>2.2.1.0</clatlab.version>
+        <clatlabx.version>0.30.2.0</clatlabx.version>
+        <clicy.version>2.2.1.0</clicy.version>
+        <clij2imagej1.version>2.2.1.0</clij2imagej1.version>
+        <clupath.version>0.3.2.0</clupath.version>
 
         <jocl.version>2.0.2</jocl.version>
         <bridj.version>0.7.0</bridj.version>
