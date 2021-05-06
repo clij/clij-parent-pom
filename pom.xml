@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>2.3.0.3</version>
+    <version>2.3.0.6</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -85,37 +85,37 @@
         <license.licenseName>bsd_3</license.licenseName>
         <license.copyrightOwners>Robert Haase, MPI CBG</license.copyrightOwners>
 
-        <clij_.version>1.8.0.3</clij_.version>
-        <clij_core.version>1.8.0.3</clij_core.version>
-        <clij_docs.version>1.8.0.3</clij_docs.version>
-        <clij_ops.version>1.8.0.3</clij_ops.version>
-        <clij_custom_convolution_plugin.version>1.8.0.3</clij_custom_convolution_plugin.version>
+        <clij_.version>1.8.0.6</clij_.version>
+        <clij_core.version>1.8.0.6</clij_core.version>
+        <clij_docs.version>1.8.0.4</clij_docs.version>
+        <clij_ops.version>1.8.0.4</clij_ops.version>
+        <clij_custom_convolution_plugin.version>1.8.0.4</clij_custom_convolution_plugin.version>
 
-        <clij.coremem.version>2.3.0.3</clij.coremem.version>
-        <clij_clearcl.version>2.3.0.3</clij_clearcl.version>
+        <clij.coremem.version>2.3.0.4</clij.coremem.version>
+        <clij_clearcl.version>2.3.0.4</clij_clearcl.version>
 
-        <clij2_.version>2.3.0.3</clij2_.version>
-        <clij2_code_generators_.version>2.3.0.3</clij2_code_generators_.version>
-        <clij2_docs_.version>2.3.0.3</clij2_docs_.version>
-        <clij2_tests_.version>2.3.0.3</clij2_tests_.version>
+        <clij2_.version>2.3.0.6</clij2_.version>
+        <clij2_code_generators_.version>2.3.0.6</clij2_code_generators_.version>
+        <clij2_docs_.version>2.3.0.6</clij2_docs_.version>
+        <clij2_tests_.version>2.3.0.6</clij2_tests_.version>
 
-        <clijx_.version>0.31.0.3</clijx_.version>
-        <clijx_weka_.version>0.31.0.3</clijx_weka_.version>
+        <clijx_.version>0.31.0.6</clijx_.version>
+        <clijx_weka_.version>0.31.0.6</clijx_weka_.version>
 
-        <clijx_assistant.version>0.5.0.3</clijx_assistant.version>
-        <clijx_assistant_bonej_extensions.version>0.5.0.3</clijx_assistant_bonej_extensions.version>
-        <clijx_assistant_ij3dsuite_extensions.version>0.5.0.3</clijx_assistant_ij3dsuite_extensions.version>
-        <clijx_assistant_morpholibj_extensions.version>0.5.0.3</clijx_assistant_morpholibj_extensions.version>
-        <clijx_assistant_imagej_extensions.version>0.5.0.3</clijx_assistant_imagej_extensions.version>
-        <clijx_assistant_imagej2_extensions.version>0.5.0.3</clijx_assistant_imagej2_extensions.version>
-        <clijx_assistant_imglib2_extensions.version>0.5.0.3</clijx_assistant_imglib2_extensions.version>
-        <clijx_assistant_simpleitk_extensions.version>0.5.0.3</clijx_assistant_simpleitk_extensions.version>
+        <clijx_assistant.version>0.5.0.6</clijx_assistant.version>
+        <clijx_assistant_bonej_extensions.version>0.5.0.6</clijx_assistant_bonej_extensions.version>
+        <clijx_assistant_ij3dsuite_extensions.version>0.5.0.6</clijx_assistant_ij3dsuite_extensions.version>
+        <clijx_assistant_morpholibj_extensions.version>0.5.0.6</clijx_assistant_morpholibj_extensions.version>
+        <clijx_assistant_imagej_extensions.version>0.5.0.6</clijx_assistant_imagej_extensions.version>
+        <clijx_assistant_imagej2_extensions.version>0.5.0.6</clijx_assistant_imagej2_extensions.version>
+        <clijx_assistant_imglib2_extensions.version>0.5.0.6</clijx_assistant_imglib2_extensions.version>
+        <clijx_assistant_simpleitk_extensions.version>0.5.0.6</clijx_assistant_simpleitk_extensions.version>
 
-        <clatlab.version>2.3.0.3</clatlab.version>
-        <clatlabx.version>0.31.0.3</clatlabx.version>
-        <clicy.version>2.3.0.3</clicy.version>
-        <clij2imagej1.version>2.3.0.3</clij2imagej1.version>
-        <clupath.version>0.4.0.3</clupath.version>
+        <clatlab.version>2.3.0.6</clatlab.version>
+        <clatlabx.version>0.31.0.6</clatlabx.version>
+        <clicy.version>2.3.0.6</clicy.version>
+        <clij2imagej1.version>2.3.0.6</clij2imagej1.version>
+        <clupath.version>0.4.0.6</clupath.version>
 
         <jocl.version>2.0.2</jocl.version>
         <bridj.version>0.7.0</bridj.version>
@@ -339,6 +339,7 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <configuration>
                     <source>8</source>
+                    <additionalJOption>-Xdoclint:none</additionalJOption>
                 </configuration>
                 <version>2.9.1</version>
                 <executions>
