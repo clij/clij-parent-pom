@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>2.5.1.1</version>
+    <version>2.5.1.4</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -94,7 +94,7 @@
         <clij.coremem.version>2.3.0.4</clij.coremem.version>
         <clij_clearcl.version>2.5.0.1</clij_clearcl.version>
 
-        <clij2_.version>2.5.1.1</clij2_.version>
+        <clij2_.version>2.5.1.4</clij2_.version>
         <clij2_code_generators_.version>2.5.1.1</clij2_code_generators_.version>
         <clij2_docs_.version>2.5.1.1</clij2_docs_.version>
         <clij2_tests_.version>2.5.1.1</clij2_tests_.version>
@@ -112,11 +112,11 @@
         <clijx_assistant_imglib2_extensions.version>0.6.0.1</clijx_assistant_imglib2_extensions.version>
         <clijx_assistant_simpleitk_extensions.version>0.6.0.1</clijx_assistant_simpleitk_extensions.version>
 
-        <clatlab.version>2.5.1.1</clatlab.version>
+        <clatlab.version>2.5.1.4</clatlab.version>
         <clatlabx.version>0.32.1.1</clatlabx.version>
-        <clicy.version>2.5.1.1</clicy.version>
-        <clij2imagej1.version>2.5.1.1</clij2imagej1.version>
-        <clupath.version>0.5.1.1</clupath.version>
+        <clicy.version>2.5.1.4</clicy.version>
+        <clij2imagej1.version>2.5.1.4</clij2imagej1.version>
+        <clupath.version>0.5.1.4</clupath.version>
 
         <jocl.version>2.0.2</jocl.version>
         <bridj.version>0.7.0</bridj.version>
