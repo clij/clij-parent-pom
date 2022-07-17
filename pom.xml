@@ -13,7 +13,7 @@
 
     <groupId>net.haesleinhuepf</groupId>
     <artifactId>clij-parent-pom</artifactId>
-    <version>2.5.2.0</version>
+    <version>2.5.3.0</version>
     <packaging>pom</packaging>
 
     <name>clij-parent-pom</name>
@@ -94,13 +94,13 @@
         <clij.coremem.version>2.3.0.4</clij.coremem.version>
         <clij_clearcl.version>2.5.0.1</clij_clearcl.version>
 
-        <clij2_.version>2.5.2.0</clij2_.version>
+        <clij2_.version>2.5.3.0</clij2_.version>
         <clij2_code_generators_.version>2.5.1.1</clij2_code_generators_.version>
         <clij2_docs_.version>2.5.1.1</clij2_docs_.version>
         <clij2_tests_.version>2.5.1.1</clij2_tests_.version>
         <clij2_assistant.version>2.5.1.1</clij2_assistant.version>
 
-        <clijx_.version>0.32.1.1</clijx_.version>
+        <clijx_.version>0.32.2.0</clijx_.version>
         <clijx_weka_.version>0.32.1.1</clijx_weka_.version>
 
         <clijx_assistant.version>0.6.1.1</clijx_assistant.version>
