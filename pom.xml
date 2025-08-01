@@ -118,7 +118,7 @@
         <clij2imagej1.version>2.5.1.4</clij2imagej1.version>
         <clupath.version>0.5.1.4</clupath.version>
 
-        <jocl.version>2.0.2</jocl.version>
+        <jocl.version>2.0.5</jocl.version>
         <bridj.version>0.7.0</bridj.version>
     </properties>
 
